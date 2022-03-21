@@ -136,9 +136,13 @@
 }
 
 /*(9) Your answer goes below here for question #9 please use the border & background below */
-/* border: 3px solid #7b8ac7; */
-/* background-color: #bad3e2; */
 
+.question9 {
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
 
 /*(10) Your answer goes below here for question #10 please use the border & background below */
 /* border: 3px solid #b8f9df; */
