@@ -62,8 +62,31 @@
 .Login4 {
   align-self: flex-start;
 }
+
 /*(5) Your answer goes below here for question #5 please use the border below */
-/* border: 3px solid #1f2546; */
+
+
+.question5 {
+  border: 3px solid #1f2546;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home5 {
+  align-self: flex-end;
+}
+
+.Search5 {
+  align-self: flex-start;
+}
+
+.Logout5 {
+  align-self: flex-end;
+}
+
+.Login5 {
+  align-self: flex-start;
+}
 
 
 /*(6) Your answer goes below here for question #6 please use the border below */
