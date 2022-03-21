@@ -155,5 +155,30 @@
 
 
 /*(11) Your answer goes below here for question #11 please use the border & background below */
-/* border: 3px solid #7f798a; */
-/* background-color: #bad3e2; */
+.header--11 {
+  grid-area: header;
+}
+
+.menu--11 {
+  grid-area: menu;
+}
+
+.content--11 {
+  grid-area: content;
+}
+
+.footer--11 {
+  grid-area: footer;
+}
+
+.question11 {
+  border: 3px solid #7f798a;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-areas: 
+  "header header header header header header header header header header"
+  "menu content content content content content content content content content"
+  "footer footer footer footer footer footer footer footer footer footer";
+}
+
+
