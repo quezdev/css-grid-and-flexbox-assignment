@@ -5,9 +5,10 @@
 } */
 
 /*(1) Your answer goes below here for question #1 please use the border below */
-/* border: 3px solid #ffcc5c; */
+
 
 .question1 {
+  border: 3px solid #ffcc5c;
   display: flex;
 }
 
@@ -17,8 +18,16 @@
 
 
 /*(2) Your answer goes below here for question #2 please use the border below */
-/* border: 3px solid #1f2546; */
 
+.question2 {
+  border: 3px solid #1f2546;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home2, .Search2, .Login2  {
+  width: 100px;
+}
 
 /*(3) Your answer goes below here for question #3 please use the border below */
 /* border: 3px solid #e31c79; */
