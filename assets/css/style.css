@@ -30,7 +30,13 @@
 }
 
 /*(3) Your answer goes below here for question #3 please use the border below */
-/* border: 3px solid #e31c79; */
+
+
+.question3 {
+  border: 3px solid #e31c79;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 
 /*(4) Your answer goes below here for question #4 please use the border below */
