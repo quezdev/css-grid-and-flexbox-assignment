@@ -145,8 +145,13 @@
 }
 
 /*(10) Your answer goes below here for question #10 please use the border & background below */
-/* border: 3px solid #b8f9df; */
-/* background-color: #bad3e2; */
+
+.question10 {
+  border: 3px solid #b8f9df;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: auto 250px auto 250px;
+}
 
 
 /*(11) Your answer goes below here for question #11 please use the border & background below */
