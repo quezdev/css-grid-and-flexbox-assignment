@@ -115,13 +115,25 @@
 }
 
 /*(7) Your answer goes below here for question #7 please use the border below */
-/* border: 3px solid #139dc2; */
+
+.question7 {
+  display: grid;
+  border: 3px solid #139dc2;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 15px;
+}
 
 
 /*(8) Your answer goes below here for question #8 please use the border & background below */
-/* border: 3px solid #7b8ac7; */
-/* background-color: #bad3e2; */
 
+.question8 {
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 
 /*(9) Your answer goes below here for question #9 please use the border & background below */
 /* border: 3px solid #7b8ac7; */
